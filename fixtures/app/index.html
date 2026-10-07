@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WizardOS</title>
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+  <h1>WizardOS</h1>
+  <p>
+    Default launcher copied into <code>~/wizard/app</code>. Friendly-hosting
+    Serves this folder on the tailnet (port 443). It is not Funnelled.
+  </p>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+</body>
+</html>

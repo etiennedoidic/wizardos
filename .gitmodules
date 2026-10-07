@@ -1,0 +1,3 @@
+[submodule "friendly-hosting"]
+	path = friendly-hosting
+	url = git@github.com:etiennedoidic/friendly-hosting.git

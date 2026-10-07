@@ -1,0 +1,9 @@
+{
+  "name": "WizardOS",
+  "short_name": "WizardOS",
+  "description": "Default WizardOS launcher. Friendly-hosting Serves ~/wizard/app on the tailnet.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111"
+}
